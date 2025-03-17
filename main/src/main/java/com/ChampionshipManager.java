@@ -38,7 +38,6 @@ public class ChampionshipManager {
         return getChampionshipStandings().get(0);
     }
 
-    // 新增公共方法获取 raceResults，而不是直接访问私有字段
     public List<RallyRaceResult> getRaceResults() {
         return raceResults;
     }
